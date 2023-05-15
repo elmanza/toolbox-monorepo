@@ -7,7 +7,6 @@ const Header = () => {
   const selectedOption = useSelector((state) => state.table);
   const [options, setOptions] = useState([]); 
   const dispatch = useDispatch();
-  console.log("HEADEEEER -->", selectedOption.option);
   useEffect(() => {
     // Función para realizar la solicitud al endpoint
     async function fetchFiles() {

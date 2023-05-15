@@ -25,7 +25,6 @@ const TableC = () => {
     }
     fetchTableData();
   }, [selectedOption.option]);
-  console.log("fetchTableData", tableData.length);
   return (
     <div className='containerTable'>
       { tableData.length > 0 ? (

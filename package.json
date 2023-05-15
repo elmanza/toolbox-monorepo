@@ -13,7 +13,7 @@
   "author": "Andres Manzano",
   "license": "ISC",
   "devDependencies": {
-    "lerna": "^6.6.2"
+    "lerna": "6.6.2"
   },
   "workspaces": [
     "packages/*"
