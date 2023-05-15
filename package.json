@@ -1,0 +1,25 @@
+{
+  "name": "toolbox",
+  "version": "1.0.0",
+  "description": "Prueba de ingreso para toolbox fullstack",
+  "main": "index.js",
+  "scripts": {
+    "test": "lerna run test",
+    "start": "lerna run start",
+    "start:backend": "lerna run start --scope=toolbox-backend",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  },
+  "author": "Andres Manzano",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^6.6.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "eslint": "5.12.0",
+    "eslint-plugin-jsx-a11y": "6.7.1"
+  }
+}
