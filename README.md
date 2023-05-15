@@ -25,6 +25,7 @@ Este proyecto tiene como objetivo resolver la prueba técnica de Toolbox, la cua
 ```
 
 - Start the server
+
   `Es importante esperar que el proyecto de frontend cargue. Puede tomar máximo 30 segundos`
 
 ```bash
