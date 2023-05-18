@@ -44,7 +44,7 @@ El código del Backend utiliza el paradigma de la programación orientada a obje
 
 ```http
   GET http://localhost:4000/files/list
-  Payload
+  Respuesta
     {
         "files": [
             "test1.csv",
@@ -64,7 +64,7 @@ El código del Backend utiliza el paradigma de la programación orientada a obje
 
 ```http
   GET http://localhost:4000/files/data
-  Payload
+  Respuesta
     [
         {
             "file": "test1.csv",
@@ -194,7 +194,7 @@ El código del Backend utiliza el paradigma de la programación orientada a obje
 
 ```http
   GET http://localhost:4000/files/data?fileName=test2.csv
-  Payload
+  Respuesta
     [
         {
             "file": "test2.csv",
